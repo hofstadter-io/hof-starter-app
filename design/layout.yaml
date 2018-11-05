@@ -1,0 +1,41 @@
+app:
+  name: "hof-starter-app"
+
+  layout:
+
+    site:
+      style: "pages/layout/site.scss"
+
+    page:
+      file: "pages/layout/page/content.html"
+
+    navbar:
+      style: "pages/layout/navbar/navbar.scss"
+      translations:
+        - name: en
+          file: pages/layout/navbar/locales/en.json
+        - name: es
+          file: pages/layout/navbar/locales/es.json
+
+      logo:
+        type: image
+        source: "https://hofstadter.io/images/hof-logo.png"
+        # type: text
+        # value: "HofStarterKit"
+
+      leftItems:
+        - name: users
+          href: "/users"
+          roles:
+            - admin
+
+    footer:
+      custom: true
+      file: "pages/layout/footer/content.html"
+      style: "pages/layout/footer/footer.scss"
+      translations:
+        - name: en
+          file: pages/layout/footer/locales/en.json
+        - name: es
+          file: pages/layout/footer/locales/es.json
+

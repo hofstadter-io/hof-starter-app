@@ -1,0 +1,8 @@
+{
+  "title": "Inicio",
+  "meta": "Página de Inicio",
+  "loading": "Cargando...",
+  "messages": {
+    "hello": "Hola"
+  }
+}

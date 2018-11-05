@@ -1,0 +1,14 @@
+app:
+  name: "hof-starter-app"
+
+  author: "Hofstadter <support@hofstadter.io>"
+  license: "BSD 3-Clause"
+
+  homepage: "https://hof-starter-app.live.hofstadter.io"
+
+  keywords:
+    - "Hofstadter"
+    - "Studios"
+    - "HofStarterApp"
+    - "hof-starter-app"
+

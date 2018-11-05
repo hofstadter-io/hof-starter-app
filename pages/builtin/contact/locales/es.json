@@ -1,0 +1,19 @@
+{
+  "navLink": "Contacto",
+  "title": "Contacto",
+  "meta": "Contacto un sitio web de ejemplo",
+  "form": {
+    "title": "Contacto",
+    "field": {
+      "name": "Nombre",
+      "email": "Email",
+      "content": "Contenido"
+    },
+    "btnSubmit": "Enviar"
+  },
+  "modal": {
+    "btnMsg": "OK"
+  },
+  "errorMsg": "Error en la solicitud de contacto, inténtalo de nuevo más tarde.",
+  "successMsg": "Gracias por contactarnos, nos pondremos en contacto con usted pronto."
+}

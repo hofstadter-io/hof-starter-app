@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin321",
+      "role": "admin",
+      "isActive": true,
+      "profile": {
+        "firstName": "Big",
+        "lastName": "Bossman"
+      }
+    },
+    {
+      "username": "bob",
+      "email": "bob@example.com",
+      "password": "user-bob",
+      "role": "user",
+      "isActive": true,
+      "profile": {
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "title": "Mr."
+      }
+    },
+    {
+      "username": "alice",
+      "email": "alice@example.com",
+      "password": "user-alice",
+      "role": "user",
+      "isActive": true,
+      "profile": {
+        "firstName": "Alice",
+        "lastName": "Bunny"
+      }
+    }
+  ]
+}

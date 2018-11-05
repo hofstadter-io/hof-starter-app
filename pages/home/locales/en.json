@@ -1,0 +1,8 @@
+{
+  "title": "Home",
+  "meta": "Home example page",
+  "loading": "Loading...",
+  "messages": {
+    "hello": "Hello"
+  }
+}

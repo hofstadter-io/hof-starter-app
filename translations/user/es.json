@@ -1,0 +1,41 @@
+{
+
+  "users": {
+    "title": "Usuarios",
+    "meta": "Usuarios example page",
+    "loadMsg": "Loading...",
+    "list": {
+      "title": "Usuarios",
+      "item": {
+        "filter": "Filtrar",
+        "search": "Buscar ...",
+        "role": {
+          "label": "Rol",
+          "all": "Todos",
+          "user": "user",
+          "admin": "admin"
+        },
+        "active": "Está Activo"
+      }
+    },
+    "select": {
+      "okText": "Hecho",
+      "dismissText": "Terminado"
+    },
+    "btnModalSubmit": "Enviar",
+    "btnModalClose": "Cerrar",
+    "orderByText": "Ordenar Por",
+    "column": {
+      "name": "Nombre",
+      "email": "Email",
+      "role": "Rol",
+      "active": "Está Activo",
+      "actions": "Acciones"
+    },
+    "btn": {
+      "add": "Agregar Usuario",
+      "delete": "Borrar"
+    }
+  }
+
+}

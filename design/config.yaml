@@ -1,0 +1,21 @@
+app:
+  name: "hof-starter-app"
+
+  config:
+    gaTracking: "UA-000000-23"
+
+    oauth:
+      google: false
+      facebook: false
+      linkedin: false
+      github: false
+
+    multilang:
+      picker: true
+      languages:
+        - short: en
+          code: en-US
+        - short: es
+          code: es-ES
+
+

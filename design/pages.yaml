@@ -1,0 +1,25 @@
+app:
+  name: "hof-starter-app"
+
+  builtin-pages:
+    - name: contact
+      style: "pages/builtin/contact/style.scss"
+      translations:
+        - name: en
+          file: pages/builtin/contact/locales/en.json
+        - name: es
+          file: pages/builtin/contact/locales/es.json
+
+  pages:
+
+    - name: home
+      route: "/"
+      style: "pages/home/home.scss"
+      files:
+        - "pages/home/home.html"
+      translations:
+        - name: en
+          file: pages/home/locales/en.json
+        - name: es
+          file: pages/home/locales/es.json
+
