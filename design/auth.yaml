@@ -1,0 +1,17 @@
+app:
+  name: "hof-starter-app"
+
+  auth:
+
+    password:
+      enabled: true
+
+    apikey:
+      enabled: true
+
+    oauth:
+      google: false
+      facebook: false
+      linkedin: false
+      github: false
+

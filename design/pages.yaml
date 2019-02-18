@@ -3,7 +3,8 @@ app:
 
   builtin-pages:
     - name: contact
-      style: "pages/builtin/contact/style.scss"
+      style:
+        - "pages/builtin/contact/style.scss"
       translations:
         - name: en
           file: pages/builtin/contact/locales/en.json
@@ -14,8 +15,9 @@ app:
 
     - name: home
       route: "/"
-      style: "pages/home/home.scss"
-      files:
+      style:
+        - "pages/home/home.scss"
+      content:
         - "pages/home/home.html"
       translations:
         - name: en
