@@ -1,5 +1,5 @@
 app:
-  name: "hof-starter-app"
+  name: "{{AppName}}"
   title: "Hof Starter App"
   version: "0.0.1"
 

@@ -1,5 +1,5 @@
 app:
-  name: "hof-starter-app"
+  name: "{{AppName}}"
 
   config:
     gaTracking: "UA-000000-23"
