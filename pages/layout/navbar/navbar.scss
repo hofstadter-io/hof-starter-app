@@ -32,3 +32,12 @@
     margin-top: -0.8em;
   }
 }
+
+#user-dropdown-menu {
+  a {
+    color: #303030;
+  }
+    &.active {
+      color: #444444;
+    }
+}

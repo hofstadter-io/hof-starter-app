@@ -29,6 +29,18 @@ app:
           roles:
             - admin
 
+      userItems:
+        - name: profile
+          href: "/profile"
+          roles:
+            - user
+            - admin
+        - name: account
+          href: "/account"
+          roles:
+            - user
+            - admin
+
     footer:
       custom: true
       file: "pages/layout/footer/content.html"
