@@ -1,0 +1,31 @@
+{
+  "list": {
+    "welcome": "Welcome to the",
+    "pagename": "Posts List"
+  },
+  "view": {
+    "welcome": "Welcome to the",
+    "pagename": "Post View"
+  },
+  "post" : {
+    "btn": {
+      "new": "New Post",
+      "back": "Back",
+      "edit": "Edit",
+      "submit": "Submit",
+      "delete": "Delete"
+    },
+    "label": {
+      "create": "Create",
+      "edit": "Edit",
+      "view": "View",
+      "post": "Post"
+    },
+    "field": {
+      "title": "Title",
+      "content": "Content",
+      "published": "Published"
+    }
+  }
+}
+

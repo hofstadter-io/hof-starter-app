@@ -1,0 +1,11 @@
+{
+  "list": {
+    "welcome": "Welcome to the",
+    "pagename": "Posts List"
+  },
+  "view": {
+    "welcome": "Welcome to the",
+    "pagename": "Post View"
+  }
+}
+

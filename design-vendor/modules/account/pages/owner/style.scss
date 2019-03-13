@@ -1,0 +1,13 @@
+#account-navs {
+  margin: .5em;
+
+  li {
+    .active {
+        color: #ffffff;
+        background-color: #1385e5;
+    }
+
+    border: 1px solid;
+    margin-bottom: -1px;
+  }
+}

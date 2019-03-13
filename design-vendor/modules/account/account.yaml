@@ -1,0 +1,51 @@
+type:
+
+  name: account
+
+  owned:
+    type: has-one
+    no-mutate: true
+    current-user-with: true
+
+  fields:
+  - name: name
+    type: string
+    length: 64
+  - name: type
+    type: string
+    length: 64
+  - name: state
+    type: string
+    length: 64
+
+  auth:
+    view:   ['admin']
+    create: ['admin']
+    update: ['admin']
+    delete: ['admin']
+
+  lookup:
+    - name: Name
+      field: name
+
+
+  components:
+
+    - name: account-auth
+
+      content:
+        - "design/modules/account/components/AccountAuth.jsx"
+
+      current-user: true
+
+      data:
+
+        - name: account
+          type: type.modules.account.account
+          query:
+            type: view
+
+        - name: profile
+          type: type.modules.account.profile
+          query:
+            type: view

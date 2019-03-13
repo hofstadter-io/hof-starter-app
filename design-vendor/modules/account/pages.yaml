@@ -1,0 +1,19 @@
+module:
+  name: account
+
+  pages:
+
+    - name: user-account
+      route: "/account"
+
+      style:
+        - "design/modules/account/pages/owner/style.scss"
+
+      content:
+        - "design/modules/account/pages/owner/content.html"
+
+      components:
+        - name: AccountView
+          component: module.modules.account.components.AccountView
+
+

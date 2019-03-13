@@ -1,0 +1,33 @@
+{
+  "profiles": [
+    {
+      "owner": "admin",
+      "firstName": "Big",
+      "lastName": "Bossman",
+      "title": "Hey"
+    },
+    {
+      "owner": "bob",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "title": "Mr."
+    }
+  ],
+  "accounts": [
+    {
+      "owner": "admin",
+      "name": "studios",
+      "type": "starter"
+    },
+    {
+      "owner": "bob",
+      "name": "acct-bob",
+      "type": "starter"
+    },
+    {
+      "owner": "alice",
+      "name": "wonderland",
+      "type": "starter"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+type:
+  name: profile
+
+  owned:
+    type: has-one
+
+  fields:
+    - name: first_name
+      type: string
+      length: 64
+    - name: middle_name
+      type: string
+      length: 64
+    - name: last_name
+      type: string
+      length: 64
+    - name: title
+      type: string
+      length: 16
+    - name: suffix
+      type: string
+      length: 16
+
+  auth:
+    default: true
