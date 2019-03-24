@@ -1,4 +1,5 @@
 app:
   name: "{{AppName}}"
 
-  modules: []
+  modules:
+    - account

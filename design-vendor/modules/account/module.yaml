@@ -19,7 +19,7 @@ module:
     file: design/modules/account/locales/es.json
 
   seeds:
-    file: design/modules/account/seeds/accounts.json
+    file: design-vendor/modules/account/seeds/accounts.json
     types:
       - name: account
         data: accounts
