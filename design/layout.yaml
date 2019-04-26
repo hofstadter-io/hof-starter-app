@@ -4,18 +4,18 @@ app:
   layout:
 
     site:
-      style: "pages/layout/site.scss"
+      style: "design/pages/layout/site.scss"
 
     page:
-      file: "pages/layout/page/content.html"
+      file: "design/pages/layout/page/content.html"
 
     navbar:
-      style: "pages/layout/navbar/navbar.scss"
+      style: "design/pages/layout/navbar/navbar.scss"
       translations:
         - name: en
-          file: pages/layout/navbar/locales/en.json
+          file: design/pages/layout/navbar/locales/en.json
         - name: es
-          file: pages/layout/navbar/locales/es.json
+          file: design/pages/layout/navbar/locales/es.json
 
       logo:
         type: image
@@ -43,11 +43,11 @@ app:
 
     footer:
       custom: true
-      file: "pages/layout/footer/content.html"
-      style: "pages/layout/footer/footer.scss"
+      file: "design/pages/layout/footer/content.html"
+      style: "design/pages/layout/footer/footer.scss"
       translations:
         - name: en
-          file: pages/layout/footer/locales/en.json
+          file: design/pages/layout/footer/locales/en.json
         - name: es
-          file: pages/layout/footer/locales/es.json
+          file: design/pages/layout/footer/locales/es.json
 

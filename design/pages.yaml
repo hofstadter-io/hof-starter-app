@@ -4,24 +4,24 @@ app:
   builtin-pages:
     - name: contact
       style:
-        - "pages/builtin/contact/style.scss"
+        - "design/pages/builtin/contact/style.scss"
       translations:
         - name: en
-          file: pages/builtin/contact/locales/en.json
+          file: design/pages/builtin/contact/locales/en.json
         - name: es
-          file: pages/builtin/contact/locales/es.json
+          file: design/pages/builtin/contact/locales/es.json
 
   pages:
 
     - name: home
       route: "/"
       style:
-        - "pages/home/home.scss"
+        - "design/pages/home/home.scss"
       content:
-        - "pages/home/home.html"
+        - "design/pages/home/home.html"
       translations:
         - name: en
-          file: pages/home/locales/en.json
+          file: design/pages/home/locales/en.json
         - name: es
-          file: pages/home/locales/es.json
+          file: design/pages/home/locales/es.json
 

@@ -1,8 +1,0 @@
-app:
-  name: hof-starter-app
-
-auth:
-  username: "..."
-  apikey: "..."
-
-host: "https://hof-stater-app.live.hofstadter.io/studios"
