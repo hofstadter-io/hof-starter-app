@@ -5,6 +5,6 @@ app:
 
     translations:
       - name: en
-        file: "design/translations/user/en.json"
+        file: "design/locales/user/en.json"
       - name: es
-        file: "design/translations/user/es.json"
+        file: "design/locales/user/es.json"
