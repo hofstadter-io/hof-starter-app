@@ -19,7 +19,7 @@ app:
 
       logo:
         type: image
-        source: "https://hofstadter.io/images/hof-logo.png"
+        source: "https://hofstadter.io/images/logos/hof-logo.png"
         # type: text
         # value: "HofStarterKit"
 
