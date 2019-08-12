@@ -10,8 +10,12 @@ app:
       enabled: true
 
     oauth:
-      google: false
-      facebook: false
-      linkedin: false
-      github: false
+      google:
+        enabled: false
+      facebook:
+        enabled: false
+      linkedin:
+        enabled: false
+      github:
+        enabled: false
 

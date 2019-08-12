@@ -6,10 +6,14 @@ app:
     site:
       style: "design/pages/layout/site.scss"
 
-    page:
-      file: "design/pages/layout/page/content.html"
+    pages:
+      - name: default
+        file: "design/pages/layout/page/content.html"
+        navbar: default
+        footer: default
 
-    navbar:
+    navbars:
+    - name: default
       style: "design/pages/layout/navbar/navbar.scss"
       translations:
         - name: en
@@ -41,7 +45,8 @@ app:
             - user
             - admin
 
-    footer:
+    footers:
+    - name: default
       custom: true
       file: "design/pages/layout/footer/content.html"
       style: "design/pages/layout/footer/footer.scss"
