@@ -1,38 +1,38 @@
 <div id="styled-footer" className="d-flex flex-shrink-0 justify-content-center">
-	<RS.Container>
-    <RS.Row style={ {marginTop: '1em'} }>
-			<RS.Col xs="6" sm="4">
+	<div className="container">
+    <div className="row" style={ {marginTop: '1em'} }>
+			<div className="col col-xs-6 col-sm-4">
         Hofstadter, Inc.<br />
         Denver, CO, USA<br />
         <a href="https://hofstadter.io">hofstadter.io</a><br />
         <br />
         <a href="https://docs.hofstadter.io/getting-started/getting-an-account/">
-          <RS.Button color="success" size="sm">
+          <button type="button" className="btn btn-success btn-sm">
             {t('account')}
-          </RS.Button>
+          </button>
         </a><br />
         <br />
-      </RS.Col>
-			<RS.Col xs="6" sm="4">
+      </div>
+			<div className="col col-xs-6 col-sm-4">
         Educational:<br />
         <a href="https://docs.hofstadter.io">{t('documentation')}</a><br />
         <a href="https://github.com/hofstadter-io/hof-starter-app">Hof Starter App</a><br />
         <a href="https://www.youtube.com/channel/UCG-DPa80f649-KP_LNzAmSQ/playlists">YouTube {t('channel')}</a><br />
         <br />
-      </RS.Col>
-			<RS.Col xs="6" sm="4">
+      </div>
+			<div className="col col-xs-6 col-sm-4">
         Quick Links:<br />
         <a href="https://github.com/hofstadter-io">GitHub</a><br />
         <a href="https://hofstadter.io/contact">{t('contact')}</a><br />
         <a href="https://hofstadter.io/careers">{t('careers')}</a><br />
         <a href="https://hofstadter.io/legal">{t('legal')}</a><br />
-      </RS.Col>
-		</RS.Row>
-    <RS.Row style={ {marginTop: '0.5em'} }>
-			<RS.Col xs="12" className="text-center">
-				<span>&copy; 2018. Hofstadter, Inc.</span>
-			</RS.Col>
-		</RS.Row>
-	</RS.Container>
+      </div>
+		</div>
+    <div className="row" style={ {marginTop: '0.5em'} }>
+			<div className="col col-x2-12 text-center">
+        <span>&copy; {new Date().getFullYer()}. Hofstadter, Inc.</span>
+      </div>
+		</div>
+  </div>
 </div>
 
