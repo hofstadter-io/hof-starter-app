@@ -1,5 +1,5 @@
 app:
-  name: "{{AppName}}"
+  name: "hof-layouts"
 
   layout:
 
@@ -9,12 +9,28 @@ app:
     pages:
       - name: default
         file: "design/pages/layout/page/content.html"
+        drawer:
+          enabled: true
+          name: default
+          top-level: true
+          over: true
+
         navbar: default
         footer: default
+
+    drawers:
+    - name: default
+      custom: true
+      content:
+        - design/pages/layout/drawer/content.tsx
+      styles: 
+        - design/pages/layout/drawer/styles/defaultStyle.scss
 
     navbars:
     - name: default
       style: "design/pages/layout/navbar/navbar.scss"
+      left-dropdown-toggle:
+        enabled: true
       translations:
         - name: en
           file: design/pages/layout/navbar/locales/en.json
