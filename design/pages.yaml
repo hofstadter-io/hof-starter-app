@@ -1,15 +1,5 @@
 app:
-  name: "{{AppName}}"
-
-  builtin-pages:
-    - name: contact
-      style:
-        - "design/pages/builtin/contact/style.scss"
-      translations:
-        - name: en
-          file: design/pages/builtin/contact/locales/en.json
-        - name: es
-          file: design/pages/builtin/contact/locales/es.json
+  name: "{% AppName %}"
 
   pages:
 

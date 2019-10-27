@@ -1,0 +1,10 @@
+Hi {{{user.email}}},
+
+Welcome to {% AppName %}
+Please use the following link to confirm your email:
+{{{url}}}
+Your login email is: {{{user.email}}}
+
+Thank You,
+The {% AppName %} Team
+

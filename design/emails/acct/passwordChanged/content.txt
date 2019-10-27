@@ -1,0 +1,8 @@
+Hi {{{user.email}}},
+
+The email is to inform you your password has changed
+If you believe this is an error, please contact us at:
+accounts@{% AppName %}.com
+
+Thank You,
+The {% AppName %} Team

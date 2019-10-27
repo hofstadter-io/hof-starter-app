@@ -1,7 +1,12 @@
 app:
-  name: "{{AppName}}"
+  name: "{% AppName %}"
 
   auth:
+
+    login-redirect: "/"
+
+    # registration:
+    #   disabled: true
 
     password:
       enabled: true

@@ -1,0 +1,9 @@
+Hi {{{user.email}}},
+
+Welcome to {% AppName %}
+Your account has been confirmed, you can login at:
+Studios Login
+Your login email is: {{{user.email}}}
+
+Thank You,
+The {% AppName %} Team

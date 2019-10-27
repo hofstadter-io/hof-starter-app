@@ -1,10 +1,10 @@
 app:
-  name: "{{AppName}}"
+  name: "{% AppName %}"
 
-  author: "Hofstadter <support@hofstadter.io>"
+  author: "{% AppName %} <support@{% AppName %}.com>"
   license: "BSD 3-Clause"
 
-  homepage: "https://github.com/hofstadter-io/hof-starter-app-minimal"
+  homepage: "https://github.com/hofstadter-io/hof-starter-app"
 
   keywords:
     - "Hofstadter"

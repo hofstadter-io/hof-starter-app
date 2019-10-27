@@ -1,8 +1,11 @@
 app:
-  name: "{{AppName}}"
+  name: "{% AppName %}"
 
   config:
-    gaTracking: "UA-000000-23"
+
+    mailer:
+      provider: "mailgun"
+      sender: "support@{% AppName %}.com"
 
     oauth:
       google: false

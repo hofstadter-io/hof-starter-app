@@ -1,5 +1,5 @@
 app:
-  name: "{{AppName}}"
+  name: "{% AppName %}"
 
   user:
 
@@ -8,3 +8,28 @@ app:
         file: "design/locales/user/en.json"
       - name: es
         file: "design/locales/user/es.json"
+
+    emails:
+      sender:
+        name: "{% AppName %}"
+        email: "no-reply@{% AppName %}.com"
+
+      register:
+        subject: "Confirm Your Account - {% AppName %}"
+        html: "design/emails/acct/register/content.html"
+        text: "design/emails/acct/register/content.txt"
+
+      confirmAccount:
+        subject: "Welcome to {% AppName %}"
+        html: "design/emails/acct/confirm/content.html"
+        text: "design/emails/acct/confirm/content.txt"
+
+      forgotPassword:
+        subject: "Password Reset - {% AppName %}"
+        html: "design/emails/acct/forgotPassword/content.html"
+        text: "design/emails/acct/forgotPassword/content.txt"
+
+      passwordChanged:
+        subject: "Password Changed - {% AppName %}"
+        html: "design/emails/acct/passwordChanged/content.html"
+        text: "design/emails/acct/passwordChanged/content.txt"
